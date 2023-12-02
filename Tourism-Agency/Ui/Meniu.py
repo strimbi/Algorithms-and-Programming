@@ -1,0 +1,20 @@
+
+def ui_meniu():
+    meniu = "MENIU\n"
+    meniu = meniu + "1. Print packages\n"
+    meniu = meniu + "2. Add package\n"
+    meniu = meniu + "3. Modify package \n"
+    meniu = meniu + "4. Delete packages for a destination\n"
+    meniu = meniu + "5. Delete packages which last shorter than a number of input days\n"
+    meniu = meniu + "6. Delete packages with a price larger than an input price\n"
+    meniu = meniu + "7. Print all packages between a time interval\n"
+    meniu = meniu + "8. Print packages with a specific destination and price smaller than a given sum\n"
+    meniu = meniu + "9. Print packages with a specific end date\n"
+    meniu = meniu + "10. Print number of packages for a destination\n"
+    meniu = meniu + "11. Print packages between a time interval ordered in ascending order\n"
+    meniu = meniu + "12. Print the avarage price for a destination\n"
+    meniu = meniu + "13. Eliminate the packages with a smaller price than a given sum and a different destination than the one given\n"
+    meniu = meniu + "14. Eliminate the packages that have days in a certain month\n"
+    meniu = meniu + "15. Undo\n"
+    meniu = meniu + "0. Exit\n"
+    return meniu
